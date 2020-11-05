@@ -1,18 +1,8 @@
 # Merkle Patricia Trie
 
-![Language](https://img.shields.io/badge/language-C++14-blue)
-[![LICENSE](https://img.shields.io/github/license/verified-network/verified-storage)](LICENSE)
-![Status](https://img.shields.io/badge/status-unstable-red)
-[![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https://www.verified.network/)](https://www.verified.network/)
-<!-- [![GitHub Issues](https://img.shields.io/github/issues/verified-network/verified-storage)](https://github.com/verified-network/verified-storage/issues) -->
-<!-- ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/verified-network/verified-storage) -->
-<!-- ![Sonar Quality Gate](https://img.shields.io/sonar/:metric/:component?server=https%3A%2F%2Fsonarcloud.io&sonarVersion=4.2) -->
-
 > This is an implementation of Modified Merkle Patricia Trie as mentioned in Ethereum Paper.
 
 ## Contact
-
-- Report bugs, issues or feature requests using [GitHub issues](https://github.com/verified-network/verified-storage/issues/new).
 
 ## Install
 
@@ -20,13 +10,6 @@
 
 #### Get the source code
 
-Git and Github are used to maintain the source code. Clone the repository by:
-
-```shell
-git clone https://github.com/verified-network/verified-storage.git
-
-cd verified-storage
-```
 
 #### Install CMake
 CMake is used to control the build configuration of the project. Latest version of CMake is required (at the time of writing 3.16.0). We strongly recommend you to install CMake by downloading and unpacking and unpacking the binary distribution of the latest version available on [**the CMake download page**](https://cmake.org/download/).
@@ -55,11 +38,8 @@ On **Windows** we support Visual Studio 2017, and 2019. You should generate a Vi
 
 * **Visual Studio 2019**: `cmake .. -G "Visual Studio 16 2019" -A x64`
 
-After the necessary dependencies have been downloaded and built and the solution has been generated, `verified-storage.sln` can be found in the `build` directory.
-
 ## Tools
 
-The Verified Storage includes the following tools in addition to the Storage:
 * **[constants](constants/)**: A list of macros, aliases and enums.
 * **[utils](utils/)**: A utility functionality used as utility
 * **[rlp](rlp/)**: A RLP encoder/decoder tool
@@ -67,7 +47,6 @@ The Verified Storage includes the following tools in addition to the Storage:
 
 ## License
 
-[![LICENSE](https://img.shields.io/github/license/verified-network/verified-storage)](LICENSE)
 
 All contributions are made under the [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE).
 
